@@ -1,7 +1,7 @@
 // ===== FADE-IN ON SCROLL =====
 document.addEventListener("scroll", () => {
   const elements = document.querySelectorAll(
-    ".project-card, .skill-box, .hero-text,  .about-t, .section-title, .education ul, .achievements ul, .services ul"
+    " .section-title"
   );
   elements.forEach(el => {
     const rect = el.getBoundingClientRect();
@@ -10,3 +10,4 @@ document.addEventListener("scroll", () => {
     }
   });
 });
+
