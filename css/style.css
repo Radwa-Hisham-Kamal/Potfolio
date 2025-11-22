@@ -162,7 +162,7 @@ h1, h2, h5, p {
   transform: translateY(0) !important;
   transition: all 0.8s ease;
 }
-.project-card, .skill-box,  .about-t, .section-title, .education ul, .achievements ul, .services ul {
+.section-title{
   opacity: 0;
   transform: translateY(30px);
 }
@@ -176,3 +176,4 @@ h1, h2, h5, p {
     margin-top: 2rem;
   }
 }
+
